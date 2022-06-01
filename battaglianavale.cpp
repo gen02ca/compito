@@ -18,9 +18,9 @@ main()
 		}
 	}
 	
-	while(navi<6){	//mette le navi
-		i=rand()%6+1;
-		j=rand()%6+1;
+	while(navi<N-1){	//mette le navi
+		i=rand()%N;
+		j=rand()%N;
 		
 		if(m[i][j]!=30){
 			m[i][j]=30;
